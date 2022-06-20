@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.select-none {
+  pointer-events: none;
+}
+
+.text-accent {
+  color: #EA4F41 !important;
+}
+
+.border-accent,
+.hover\:border-accent:hover {
+  border-color: #EA4F41 !important;
+}
+
+.bg-accent {
+  background-color: #EA4F41 !important;
+}
+
+.user-select-none {
+  user-select: none;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.p-0-last:last-child {
+  padding-right: 0;
+}
