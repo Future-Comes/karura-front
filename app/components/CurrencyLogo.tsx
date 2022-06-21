@@ -11,7 +11,7 @@ export const CurrencyLogo: React.FC<Props> = ({ className, currencyId }) => {
     <div
       className={clsx(className, "rounded-full bg-white bg-contain")}
       style={{
-        backgroundImage: `url(/icons/token-${currencyId}.png)`,
+        backgroundImage: `url(/icons/Token-${currencyId}.png)`,
       }}
     />
   );
