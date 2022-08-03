@@ -93,7 +93,7 @@ export const getChangePercent = (cur: number, prev: number): number => {
 
 export const fetchFromApi = async (query: string) => {
   const res = await fetch(
-    "https://app.gc.subsquid.io/beta/karura-dashboard/main/graphql",
+    "https://app.gc.subsquid.io/beta/karura-dashboard/one/graphql",
     {
       method: "POST",
       headers: {
